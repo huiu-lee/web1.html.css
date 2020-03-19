@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      #grid{
+        border:5px solid pink;
+        display:grid;
+        grid-template-columns: 150px 1fr;
+      }
+      div{
+        border:5px solid gray;
+      }
+      </style>
+  </head>
+  <body>
+    <div id="grid">
+    <div>NAVIGATION</div>
+    <div>ARTICLE</div>
+  </body>
+</html>
+
+/*디자인을 위해서 쓰는 태그들 div와 span은 비슷함*/
+/*1fr 화면에 맞춰 조정하는 것*/
+/*grid를 화면에 비율을 맞춰서 조정하기
+grid-template-columns: 150px 1fr; 첫 번째는 150px, 두 번째는 1fr만큼 차지한다
+텍스트의 길이에 따라 grid의 크기도 바뀜
+*/
